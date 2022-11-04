@@ -1,0 +1,17 @@
+Index: src/main/java/util/test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package util;\r\n\r\npublic class test {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"新建了一个branch\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/util/test.java b/src/main/java/util/test.java
+--- a/src/main/java/util/test.java	(revision 1b31ef08cf878d786cb269a577900e8df43979fe)
++++ b/src/main/java/util/test.java	(date 1667547979519)
+@@ -3,5 +3,6 @@
+ public class test {
+     public static void main(String[] args) {
+         System.out.println("新建了一个branch");
++        System.out.println("主干添加");
+     }
+ }
