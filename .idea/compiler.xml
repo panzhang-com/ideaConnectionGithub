@@ -9,5 +9,8 @@
         <module name="StoreManageSystem" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ideaConnectionGithub" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
